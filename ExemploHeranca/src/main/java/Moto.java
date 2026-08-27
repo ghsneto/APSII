@@ -1,8 +1,8 @@
 public class Moto extends Veiculo {
 
-    private Double cilindradas;
+    private int cilindradas;
 
-    public Moto(String modelo, Double ano, Double cilindradas) {
+    public Moto(String modelo, Double ano, int cilindradas) {
         super(modelo, ano);
         this.cilindradas = cilindradas;
     }
